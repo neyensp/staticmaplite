@@ -1,0 +1,5 @@
+{
+  "name": "dfacts/staticmaplite",
+  "type": "library",
+  "description": "A library to build static map images based on openstreetmap."
+}
