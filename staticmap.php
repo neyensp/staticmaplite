@@ -42,7 +42,7 @@ Class staticMapLite
 
     protected $tileDefaultSrc = 'mapnik';
     protected $markerBaseDir = __DIR__ . '/images/markers';
-    protected $osmLogo = 'images/osm_logo.png';
+    protected $osmLogo = __DIR__ . '/images/osm_logo.png';
 
     protected $markerPrototypes = array(
         // found at http://www.mapito.net/map-marker-icons.html
