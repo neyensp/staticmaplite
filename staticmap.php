@@ -41,7 +41,7 @@ Class staticMapLite
     );
 
     protected $tileDefaultSrc = 'mapnik';
-    protected $markerBaseDir = 'images/markers';
+    protected $markerBaseDir = __DIR__ . '/images/markers';
     protected $osmLogo = 'images/osm_logo.png';
 
     protected $markerPrototypes = array(
